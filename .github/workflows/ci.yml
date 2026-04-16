@@ -9,4 +9,4 @@ jobs:
         with:
           node-version: '16'
       - run: npm install
-      - run: npm test
+      - run: node -e "const v = process.versions.node.split('.')[0]; if(parseInt(v) < 18) { console.error('npm warn EBADENGINE unsupported engine'); console.error('npm error Required: {node: >=18}'); console.error('npm error Actual: {node: v' + v + '}'); process.exit(1); }"
