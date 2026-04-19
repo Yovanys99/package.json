@@ -1,20 +1,11 @@
 {
-  "name": "caselab-ci-test",,,
+  "name": "ci-test",
   "version": "1.0.0",
-  "description": "Sandbox repo for validating CaseLab diagnosis engine",
-  "private": true,
-  "engines": {
-    "node": "20.x"
-  },
   "scripts": {
-    "build": "echo 'build ok'",
-    "test": "jest --passWithNoTests",
-    "start": "node index.js"
+    "build": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0"
+    "react": "18.0.0",
+    "react-dom": "17.0.0"
   }
 }
