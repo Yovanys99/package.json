@@ -2,7 +2,7 @@ name: CI
 on: [push]
 jobs:
   build:
-    runs-on: ubeeuntu-latest
+    runs-on: unnnbeeuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
