@@ -10,3 +10,4 @@ echo     "build": "echo built"
 echo   }
 echo }
 ) > package.json
+   
